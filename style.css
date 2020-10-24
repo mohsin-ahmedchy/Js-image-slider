@@ -1,0 +1,41 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+.image{
+    flex: 0 0 60%;
+    background-color: white;
+    min-height: 70vh;
+    background: url("img/bike1.jpg") center/cover no-repeat;
+    position: relative; 
+    border-radius: 10px;
+}
+.btn{
+    display: inline-block;
+    background: white;
+    color: black;
+    border: 3px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 6px;
+    outline: none;
+}
+.preBtn{
+    position: absolute;
+    top: 90%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.nextBtn{
+    position: absolute;
+    top: 90%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+.btn:hover{
+    background: blueviolet;
+    color: white;
+}
